@@ -83,14 +83,14 @@ article p, #instructions p {
 .sprite {
     width: 150px;
     height: 150px;
-    background-image: url('../images/marvelSprites.jpg');
+    background-image: url('../images/rbclSprites.jpg');
 }
 
-#carol {background-position: -150px 0;}
-#clint {background-position: -300px 0;}
-#hulk {background-position: -450px 0;}
-#thor {background-position: -600px 0;}
-#widow {background-position: -750px 0;}
+#ab {background-position: -150px 0;}
+#faf {background-position: -300px 0;}
+#rp {background-position: -450px 0;}
+#yd {background-position: -600px 0;}
+#wj {background-position: -750px 0;}
 
 #cap:hover, #carol:hover, #clint:hover, #hulk:hover, #thor:hover, #widow:hover {
     background-position-y: -150px;
@@ -144,6 +144,100 @@ footer {
     opacity: 0.5;
     color: red;
 }
+
+#lightbox3 {
+    background-image: url('../images/ad-no-bg.webp');
+}
+
+.lightbox_close {
+    position: absolute;
+    top: 20px;
+    right: 5%;
+
+    color: white;
+    font-size: 36px;
+
+    text-decoration: none;
+    font-weight: bolder;
+
+    transition: all .5s ease-in-out;
+}
+
+.lightbox_close:hover {
+    opacity: 0.5;
+    color: red;
+}
+
+#lightbox4 {
+    background-image: url('../images/fa-no-bg.webp');
+}
+
+.lightbox_close {
+    position: absolute;
+    top: 20px;
+    right: 5%;
+
+    color: white;
+    font-size: 36px;
+
+    text-decoration: none;
+    font-weight: bolder;
+
+    transition: all .5s ease-in-out;
+}
+
+.lightbox_close:hover {
+    opacity: 0.5;
+    color: red;
+}
+
+#lightbox5 {
+    background-image: url('../images/rajat-no-bg.webp');
+}
+
+.lightbox_close {
+    position: absolute;
+    top: 20px;
+    right: 5%;
+
+    color: white;
+    font-size: 36px;
+
+    text-decoration: none;
+    font-weight: bolder;
+
+    transition: all .5s ease-in-out;
+}
+
+.lightbox_close:hover {
+    opacity: 0.5;
+    color: red;
+}
+
+#lightbox6 {
+    background-image: url('../images/jack-no-bg.webp');
+}
+
+.lightbox_close {
+    position: absolute;
+    top: 20px;
+    right: 5%;
+
+    color: white;
+    font-size: 36px;
+
+    text-decoration: none;
+    font-weight: bolder;
+
+    transition: all .5s ease-in-out;
+}
+
+.lightbox_close:hover {
+    opacity: 0.5;
+    color: red;
+}
+
+
 
 .lightbox article {
     width: 55%;
